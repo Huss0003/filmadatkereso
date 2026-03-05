@@ -7,8 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox TextWrapping="Wrap" Text="TextBox" Width="120" Margin="91,140,589,248"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="91,35,0,0" VerticalAlignment="Top"/>
+        <TextBox TextWrapping="Wrap" Text="TextBox" Margin="53,130,369,193" FontSize="30"/>
+        <Label Content="Add meg a film nevét:" HorizontalAlignment="Left" Margin="53,81,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Filmek" HorizontalAlignment="Left" Margin="53,10,0,0" VerticalAlignment="Top" Height="57" Width="286" FontSize="30"/>
+        <Label Content="Rendező:" HorizontalAlignment="Left" Margin="53,241,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="rendnev" Content="???" HorizontalAlignment="Left" Margin="68,296,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label Content="Műfaj" HorizontalAlignment="Left" Margin="222,241,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="mufajnev" Content="???" HorizontalAlignment="Left" Margin="229,296,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label Content="Időtartama" HorizontalAlignment="Left" Margin="363,241,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="hossz" Content="???" HorizontalAlignment="Left" Margin="405,296,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Button x:Name="hozzaada" Content="Új film hozzáadás" HorizontalAlignment="Left" Margin="630,33,0,0" VerticalAlignment="Top" FontSize="15" Height="56" RenderTransformOrigin="0.463,0.55" Width="120"/>
+        <Button x:Name="torles" Content="Törlés" HorizontalAlignment="Left" Margin="630,130,0,0" VerticalAlignment="Top" FontSize="15" Height="56" Width="120"/>
+        <Button x:Name="bezar" Content="Bezárás" HorizontalAlignment="Left" Margin="630,296,0,0" VerticalAlignment="Top" FontSize="15" Height="56" Width="120"/>
+
 
     </Grid>
 </Window>
